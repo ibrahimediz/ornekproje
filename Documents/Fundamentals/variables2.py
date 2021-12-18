@@ -33,5 +33,14 @@ var1 = "Teşekkürler Süpermen"
 print(var1.replace("e","ı").replace("ü","ı")) # Tışıkkırlır Sıpırmın
 print(var1.replace("e", "ı",2)) # Tışıkkürler Süpermen
 
-var1 = "Teşekkürler Süpermen" # => Teşekkürler Süpırmın
- 
+# var1 = "Teşekkürler Süpermen" # => Teşekkürler Süpırmın
+# el Cevap
+# print(var1[::-1].replace('e', 'i',2)[::-1])
+
+
+# var1 = "Teşekkürler Süpermen" # => Teşekkürler Süpırmın
+# var2 = var1.split()
+# # var2 => ["Teşekkürler","Süpermen"]
+# var2[1]  = var2[1].replace("e","ı")
+# var1 = " ".join(var2)
+# print(var1)

@@ -21,4 +21,9 @@ print(var1[1::2]) # eespt  starts from 1 to the end with 2 steps
 """
 
 var2 = "Teşekkürler Süpermen"
-print()
+print(var2.replace("e", "ı").replace("ü", "ı"))
+
+# # var2 => ["Teşekkürler","Süpermen"]
+# var2[1]  = var2[1].replace("e","ı")
+# var1 = " ".join(var2)
+# print(var1)
