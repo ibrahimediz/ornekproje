@@ -1,0 +1,2 @@
+var1 = "Teşekkürler Süpermen" # => Teşekkürler Süpırmın 
+Yukarıdaki çıktıyı almak için gereken python kodunu yazınız. 
