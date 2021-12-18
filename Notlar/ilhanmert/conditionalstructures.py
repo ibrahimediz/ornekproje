@@ -1,0 +1,4 @@
+""" 
+range-->generator f
+
+"""

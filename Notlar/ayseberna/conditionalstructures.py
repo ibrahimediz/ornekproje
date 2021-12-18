@@ -1,0 +1,1 @@
+# "is" fonksiyonu:degişkenler farklı bellek adresinlerindeyse ona göre kontrol sağlar. js'deki === mantığında

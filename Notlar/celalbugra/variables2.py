@@ -84,16 +84,29 @@ copy
 # liste = [1,2,3,4] list mutabledır
 
 ###############
-a = "4"
-print("çi","pet"*5)
-liste1 = [1,2,3]
-liste2 = [5,6,7]
-liste3 = liste1 + liste2
+# a = "4"
+# print("çi","pet"*5)
+# liste1 = [1,2,3]
+# liste2 = [5,6,7]
+# liste3 = liste1 + liste2
 
-##
+# ## "".joins(liste) direk string olarak döndürür
 
 
+# ####################
+# # dict
+# # mapping datatype
 
+# sozluk = {"1":"Bir"}
+#         # KEY:value => bu bir itemdır
+
+# sozluk = {"1":"Bir"}
+# sozluk["1"]
+# sozluk.get("1")
+# sozluk.setdefault("2","iki") # ekledik
+# print(sozluk.keys())
+# print(sozluk.values())
+# print(sozluk.items())
 
 
 

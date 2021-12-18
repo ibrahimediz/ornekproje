@@ -77,3 +77,24 @@ pass
 """
 
 # https://www.programiz.com/python-programming/precedence-associativity
+################## is
+# a = b = 385
+# if a is b:
+#     print("Doğru")
+# a = 385
+# b = 385
+# if a is b:
+#     print("Doğru")
+# else:
+#     print("Yanlış")
+# a = 1
+# b = 1.0
+# print(a == b) # True
+# print(a is b) # False
+################### in
+# liste = [1,2,3,4]
+# if 2 in liste:
+#     print("içerdema")
+# sozluk = {"1":"Bir","2":"İki"}
+# if "1" in sozluk:
+#     print("içerdema")

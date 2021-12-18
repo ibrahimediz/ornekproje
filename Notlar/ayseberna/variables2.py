@@ -1,0 +1,1 @@
+#sozluk.keys() in operatoru keyslerde arama yapar.

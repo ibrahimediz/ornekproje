@@ -48,7 +48,31 @@ else
 4. Unary Op +=,*=,/=
 5. Bitwise Op & ^ | 
 6. Membership OP
-
-
+7. Identiy op is, is not
+8. Comprasiob Op >,<
 """
 
+# python oto 2'56 ya kadar verileri tutar
+############ is
+
+a = b = 385
+if a is b:
+    print("Doğru")
+a = 385
+b = 385
+if a is b:
+    print("Doğru")
+else:
+    print("Yanlış")
+
+a = 1
+b = 1.0
+print(a == b) # True
+print(a is b) # False
+
+########## in
+liste = [1,2,3,4]
+if 2 in liste:
+    print("içerdema")
+
+# sözlükte key bazında bakar

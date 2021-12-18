@@ -10,3 +10,10 @@
 """
 
 # https://www.programiz.com/python-programming/precedence-associativity
+
+
+sozluk = {"1":"Bir"}
+sozluk["1"]
+sozluk.get("1")
+sozluk.setdefault("2","iki")
+print(sozluk)

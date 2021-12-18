@@ -118,3 +118,15 @@ copy
 # print(b)
 # b = "".join(b)
 # print(b)
+
+##################################################
+# sozluk = {"1":"Bir"}
+#         # KEY:value
+
+# sozluk = {"1":"Bir"}
+# sozluk["1"]
+# sozluk.get("1")
+# sozluk.setdefault("2","iki")
+# print(sozluk.keys())
+# print(sozluk.values())
+# print(sozluk.items())
