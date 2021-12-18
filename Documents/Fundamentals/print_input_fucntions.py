@@ -1,0 +1,5 @@
+print("Merhaba Dünya")
+print("Merhaba","Dünya",sep="-")
+print("Merhaba Dünya",end="-")
+print("MErhaba",file=open("deneme.csv","w"))
+var1 = input("Giriş Yapınız:")
