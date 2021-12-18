@@ -24,7 +24,7 @@
 # print(var1[::-1]) # kamaşaY
 
 
-# STR UMMUTABLE!!
+# STR, TUPLE UMMUTABLE!!
 
 
 # strip'i meyve soymaya benzetilebilir, 
@@ -57,3 +57,4 @@
 # print(liste.pop()) # indis belirtmezsek en sondaki elemanı çıkarır
 # print(liste.pop())  # listenin durumu  => [1, 2, 3, 4]
 # print(liste.pop(1)) # listenin durumu  => [1, 3, 4]
+

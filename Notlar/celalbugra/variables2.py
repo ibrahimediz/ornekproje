@@ -75,3 +75,29 @@ copy
 
 
 
+##### tuple
+
+# var1 = 1,
+# var1 = (1,)
+# demet = (1,2,21,"Jamiryo")
+# demet[1] = 2 tuple immutable bir veri tipidir.
+# liste = [1,2,3,4] list mutabledır
+
+###############
+a = "4"
+print("çi","pet"*5)
+liste1 = [1,2,3]
+liste2 = [5,6,7]
+liste3 = liste1 + liste2
+
+##
+
+
+
+
+
+
+
+
+
+

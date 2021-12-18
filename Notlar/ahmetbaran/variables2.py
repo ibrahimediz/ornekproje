@@ -40,6 +40,10 @@ liste = [1,2,3,1,1,1,1,1,1,]
 
 # liste.remove(1) ilk gordugu '1' i siler 
 
-liste = [item for item in liste if item != 1] c
+liste = [item for item in liste if item != 1] 
 
 print(liste)
+
+instanceCheck = isinstance(liste, list)
+
+print(instanceCheck)

@@ -63,3 +63,13 @@ append , insert, remove, pop, copy
 # b.append(3)
 # print(a)
 
+# liste = [1,2,3,4]
+# liste.append(5)
+# liste.insert(0,0)
+# print(liste.pop())  # 5 listenin durumu  => [1, 2, 3, 4]
+# print(liste.pop(1)) # 2 listenin durumu  => [1, 3, 4]
+# liste = [1,2,3,1,1,1,1,1,1,]
+# liste.remove(1)
+# print(liste)
+# liste = [item for item in liste if item != 1]
+# print(liste)

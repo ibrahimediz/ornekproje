@@ -93,3 +93,28 @@ copy
 # print(liste)
 # liste = [item for item in liste if item != 1]
 # print(liste)
+
+
+################
+# var1 = 1,
+# var1 = (1,)
+# demet = (1,2,21,"Jamiryo")
+# # demet[1] = 2 tuple veri tipi immutable bir veri tipi
+# liste = [1,2,3,4] # list veri tipi mutable veri tipidir
+# liste[2] = 100
+
+# print(type(liste))
+# print(isinstance(liste, list))
+######################
+# a = "4"
+# print("çi"," pet"*5)
+# liste = [1,2,3]
+# liste2 = [4,5,6]
+# liste3 = liste + liste2 #concatenate
+# a = "5"
+# a = int(a)
+# b = "Yakarsa"
+# b = list(b) # ['Y', 'a', 'k', 'a', 'r', 's', 'a']
+# print(b)
+# b = "".join(b)
+# print(b)

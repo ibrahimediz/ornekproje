@@ -16,5 +16,7 @@ print(";".join(vary1)) #listeden stringe dönüştürmek. split'in tersi gibi d�
 
 varlist = [1,5,6,7,8,1,1,10]
 varlist.remove(1) #ilk gördüğü 1'i siler sonra bitirir
+# veya
+varlist = [el for el in varlist if el != 1] #tüm 1'ler uçtu. list comph
 
 
