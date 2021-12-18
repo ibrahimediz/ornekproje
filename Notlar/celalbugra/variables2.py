@@ -34,3 +34,44 @@ var1.replace("e", "ı").replace("ü", "i")
 var1.replace("e", "ı",) #
 # bunun çıktısı str olduğu için 
 # tekrar fonksiyon ile erişilebilir.
+
+"""
+str immutable bir veri tipidir.
+"""
+# burdaki odak nokta verinin güvenliği
+# verinin değişikliğe uğrama ihtimali ortadan kaldırır
+
+# var1. direk yardımcı fonksiyonları ekranda gösterir.var1
+
+# strip e direk koleksiyon veririz.
+var1 = "_____________________Yemeksepeti_________"
+print(var1.strip("_")) # Yemeksepeti
+var1 = "_____aaaa______Yemeksepeti_____"
+print(var1.strip("_")) # aaaa______Yemeksepeti
+var1 = "_________ssss_____aaa___Yemek_sepeti___ss"
+print(var1.strip("_sa "))
+
+# split
+var1 = "Yemek_sepeti"
+print(var1.split(' ',maxsplit=1))
+
+# join
+liste = ["Yemek","Sepeti","23262"]
+print(";".join(liste)) 
+# stringe dönüştürmeninde bir yolu olarak kullanılabilir.
+#  
+
+"""
+append
+insert
+remove
+pop
+copy
+"""
+
+
+
+
+
+
+
