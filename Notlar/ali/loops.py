@@ -20,3 +20,28 @@ else
 # print(sozluk.values())
 # print(sozluk.items())
 
+# for i in range(4):
+#     print(i)
+
+# liste = [1,2,3,4]
+# for i in range(len(liste)):
+#     print(liste[i])
+
+# for i in range(4):
+#     if i == 1:
+#         continue
+#     i = i*8
+#     print(i)
+# else:
+#     print("İyi Günler Dileriz")
+# print(i) # ???
+
+a = 0
+while a < 5:
+    a += 1
+    print(a)
+    if a == 3:
+        continue
+else:
+    print("İyi Günler")
+    

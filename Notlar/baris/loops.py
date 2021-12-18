@@ -20,5 +20,11 @@ else
 # ################################
 
 # ################ RANGE ################
-print("range(10,5,-1)",*range(10,5,-1)) # adım değerini girmiş olduk, geriye doğru sayar..
-print("range(0,5,-1)",*range(10,5,-1)) # adım değerini girmiş olduk, geriye doğru sayar..
+# print("range(10,5,-1)",*range(10,5,-1)) # adım değerini girmiş olduk, geriye doğru sayar..
+# print("range(0,20,3)",*range(0,20,3)) 
+
+# ################ FOR ################
+
+# for i in range(10):
+#     print(i, end=" ")
+

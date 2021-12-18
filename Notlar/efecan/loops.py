@@ -9,3 +9,8 @@
 
 ##########################
 
+# while:
+#     pass
+# else:
+#     pass  
+# olarak kullanılıyor böyle olunca döngü bitince else'e giriyor
