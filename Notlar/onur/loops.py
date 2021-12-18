@@ -98,3 +98,4 @@ pass
 # sozluk = {"1":"Bir","2":"İki"}
 # if "1" in sozluk:
 #     print("içerdema")
+
