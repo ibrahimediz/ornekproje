@@ -69,10 +69,5 @@ print(sonuc)
 # print(var1)
 
 
-from string import ascii_lowercase,ascii_uppercase,punctuation,digits
-# abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ 0123456789
-import random as rnd
-print(rnd.choice(ascii_lowercase))
-liste=[]
-length = int(input(""))
-for i in range(
+
+    

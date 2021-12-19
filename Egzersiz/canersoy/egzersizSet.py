@@ -26,12 +26,5 @@
 #        dict[chr] = str(text.count(chr))
 #print(dict)
 
-from string import ascii_lowercase,ascii_uppercase,punctuation,digits
-print(ascii_lowercase,ascii_uppercase,punctuation,digits) 
-import random as rnd
-print(rnd.choice(ascii_lowercase))
-pwLen = input ("Sifre uzunlugu giriniz: ")
-pw = ""
-i = 0
 
 
