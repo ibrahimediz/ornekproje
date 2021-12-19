@@ -1,0 +1,15 @@
+iki açısı girilmiş olan bir üçgenin açılara göre türünü ekrana yazdıran python programını yazınız
+45,45  45,90  1. İkizKenar Üçgen Dik Üçgen
+60,60         2. Eşkenar Üçgen
+90,25         3. Dik üçgen
+120,41        4. Çeşit Kenar
+
+
+####################################################################################################
+girilen bir metin içerisindeki karakterlerin sayılarını ekrana sözlük şeklinde döken bir python kodu
+
+
+YemekSepeti => {"Y":1,"e":4}
+
+
+

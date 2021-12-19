@@ -3,12 +3,12 @@ liste = ["ilhanmert","canersoy","efecan",
 "hasan","ege","nedimcan","ahmetbaran",
 "fahrettinorkun","celalbugra","onur","musa",
 "alibaris","ardacem","irem","seyit","bilal",
-"abdullahekrem","ali","furkan","fatihcan"]
+"abdullah","ali","furkan","fatihcan"]
 import os
 
-folderName = "Egzersiz"
+folderName = "Notlar"
 # os.mkdir(folderName)
-fileName = "egzersizSet"
+fileName = "1_Functions"
 for item in liste:
     if not os.path.exists(os.path.join(folderName,item)):
         os.mkdir(os.path.join(folderName,item))

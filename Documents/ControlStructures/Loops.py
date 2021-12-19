@@ -91,3 +91,6 @@ print("range(5,12,2)",*range(5,12,2))
 # else:
 #     print("İyi Günler")
 ############################################## 
+
+sozluk = {x:x**2 for x in range(3)}
+liste = [x for x in range(3)]
