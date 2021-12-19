@@ -27,16 +27,15 @@ iki açısı girilmiş olan bir üçgenin açılara göre türünü ekrana yazd�
 #     print("Giriş Hatası")
 
 
-def fun(sentence):
-    result = dict()
-    set_sentence = set(sentence)
+# def fun(sentence):
+#     result = dict()
+#     set_sentence = set(sentence)
 
-    for c in set_sentence:
-        result.setdefault(c, sentence.count(c))
+#     for c in set_sentence:
+#         result.setdefault(c, sentence.count(c))
 
-    return result
+#     return result
 
 
-var_input = input("Enter a sentence or word: ")
-print(fun(var_input))
-
+# var_input = input("Enter a sentence or word: ")
+# print(fun(var_input))

@@ -6,9 +6,9 @@ liste = ["ilhanmert","canersoy","efecan",
 "abdullah","ali","furkan","fatihcan"]
 import os
 
-folderName = "Notlar"
+folderName = "Egzersiz"
 # os.mkdir(folderName)
-fileName = "1_Functions"
+fileName = "FonksiyonEgzersiz"
 for item in liste:
     if not os.path.exists(os.path.join(folderName,item)):
         os.mkdir(os.path.join(folderName,item))
