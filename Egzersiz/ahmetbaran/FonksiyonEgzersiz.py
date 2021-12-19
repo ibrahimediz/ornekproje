@@ -37,10 +37,11 @@ def generatePass():
     chars = [ascii_lowercase,ascii_uppercase,punctuation,digits]
     password = ''
     while not checkPass(password):
-        password = ''
-        for i in range(getPassLen()):
+        if len(password) == getPassLen():
+            password = ''
+        else:
             password += rnd.choice(rnd.choice(chars))
+    else:
+        return password
 
-    print(password)
-
-generatePass()
+print(generatePass()) 

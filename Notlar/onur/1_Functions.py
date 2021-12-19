@@ -47,4 +47,3 @@ yield
 # print(bizimRange(5)) # <generator object bizimRange at 0x7f72aa421ba0>
 # for i in bizimRange(6):
 #     print(i)
-
