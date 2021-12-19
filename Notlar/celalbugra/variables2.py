@@ -109,8 +109,15 @@ copy
 # print(sozluk.items())
 
 
-
-
-
+"""
+set
+"""
+liste1 = [1,2,3,4,5,6]
+liste2 = [1,2,2,2,3,5,6,5,6,8,9,10,9]
+kume1 = set(liste1)
+kume2 = set(liste2)
+kume1.difference(kume2)
+kume2.difference(kume1)
+kume1.sym
 
 

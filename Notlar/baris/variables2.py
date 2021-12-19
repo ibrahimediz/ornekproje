@@ -58,3 +58,18 @@
 # print(liste.pop())  # listenin durumu  => [1, 2, 3, 4]
 # print(liste.pop(1)) # listenin durumu  => [1, 3, 4]
 
+
+
+######################### SET ###################################
+
+# liste1 = [1,2,2,2,2,2,2,2,3,4,5]
+# liste2 = [5,4,6,7,6,6,6,6,6,6,7,8]
+# kume1 = set(liste1) 
+# kume2 = set(liste2)
+# print(kume1) # {1, 2, 3, 4, 5}
+# print(kume2) # {4, 5, 6, 7, 8}
+# print(kume1.difference(kume2)) # {1, 2, 3}
+# print(kume2.difference(kume1)) # {8, 6, 7}
+# print(kume1.symmetric_difference(kume2)) # {1, 2, 3, 6, 7, 8}
+# print(kume1.intersection(kume2)) # {4, 5}
+
