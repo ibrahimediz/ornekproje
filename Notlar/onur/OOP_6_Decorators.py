@@ -26,13 +26,13 @@
 
 
 ################################################
-class A:
-    def __init__(self):
-        self.a = "A"
+# class A:
+#     def __init__(self):
+#         self.a = "A"
 
-    @staticmethod
-    def pi():
-        return 22/7
+#     @staticmethod
+#     def pi():
+#         return 22/7
 
 
-A.pi()
+# A.pi()
