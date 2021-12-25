@@ -39,9 +39,11 @@ class MarvelHero:
         rnd.choice(liste)(guc)
         
 
+    def __lt__(self,obj):
+        return self.saglik < obj.saglik
 
-    @property
-    def durum(self):
+
+    def __str__(self):
         return f"{self.adi} - Sağlık:{self.saglik}"
 
     def __del__(self):
@@ -92,12 +94,11 @@ while P1.saglik > 0 and P2.saglik > 0:
     time.sleep(0.5)
     P1.darbe(P2.vurma())
     P2.darbe(P1.vurma())
-    print(P1.durum)
-    print(P2.durum)
+    print(P1,P2)
 else:
-    if P1.saglik > P2.saglik:
+    if P1> P2:
         print(P1.adi,"Kazandı")
-    elif P1.saglik < P2.saglik:
+    elif P1 < P2:
         print(P2.adi,"Kazandı")
     else:
         print("Berabere")
