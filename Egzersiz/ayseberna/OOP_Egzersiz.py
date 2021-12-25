@@ -1,34 +1,56 @@
-class Kedi:
-    tur = "fellis catus" # class attribute
-    liste = []
-    def __init__(self,adi,cins,yas,*args,**kwargs):
+"""
+kahramanların tanımlanabileceği bir yapı oluşturun
+parametre olarak adi,guc,saglik
+darbe,vurma adında iki fonksiyon ile secilen karakterin güçleri 
+ölçüsünde diğer karakterin sağlığında eksiltmesini sağlayalım
+istenildiğinde tek bir fonksiyon ile karakterin durumunu görebilelim
+"""
+import random as rnd
+import time
+class Hero:
+    def __init__(self,adi,guc,saglik,*args,**kwargs):
         self.adi = adi # örnek özellik instance attribute
-        self.cins = cins
-        self.yas = yas
-        Kedi.liste.append((self.adi,self.cins,self.yas))
-    def beslenme(self): # instance method
-        print(f"{self.adi}  beslendi")
-
-    @classmethod
-    def turGetir(cls):
-        print(cls.tur)
-
-    @classmethod
-    def kacKedi(cls):
-        print(len(cls.liste))
+        self.guc = guc
+        self.saglik = saglik
+    def vurma(self): # instance method
+        print(f"{self.adi}  vuruldu")
+        return self.guc
+    def darbe(self, guc): # instance method
+        print(f"{self.adi}  darbe aldi")
+        self.saglik -= guc
+        
+    def __del__(self):
+        print('rip', self.adi)
     
-    @classmethod
-    def kediListe(cls):
-        print(*cls.liste,sep="\n")
+    def durum(self):
+        return f"{self.adi} - Sağlık:{self.saglik}"
 
-    def __del__(self): #destructor
-        print("R.I.P",self.adi)
+class Ironman(Hero):
+    def __init__(self):
+        super().__init__("Ironman", 25, 80)
+class Deadpool(Hero):
+    def __init__(self):
+        super().__init__("Deadpool", 50, 50)
+class CaptainAmerica(Hero):
+    def __init__(self):
+        super().__init__("CaptainAmerica", 10, 50)
 
-# obj1 = Kedi("Melek","Tekir","11")
-# obj2 = Kedi("Duman","Scottish","12")
-# obj1.beslenme()
-# Kedi.kacKedi()
-# Kedi.kediListe()
-# print(id(obj1))
-# del obj1
-# input()
+karakterList = [Ironman(), Deadpool(), CaptainAmerica()]
+P1 = rnd.choice(karakterList)
+P2 = rnd.choice(karakterList)
+
+while P1.saglik > 0 and P2.saglik > 0:
+    time.sleep(0.5)
+    P1.darbe(P2.vurma())
+    P2.darbe(P1.vurma())
+    print(P1.durum())
+    print(P2.durum())
+else:
+    if P1.saglik > P2.saglik:
+        print(P1.adi, " Kazandi")
+    elif P1.saglik < P2.saglik:
+        print(P2.adi, " Kazandi")
+
+# obj1 = Hero("Ironman","100","100")
+# obj2 = Hero("Spiderman","100","100")
+# obj1.darbe()
