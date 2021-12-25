@@ -8,7 +8,7 @@ import os
 
 folderName = "Notlar"
 # os.mkdir(folderName)
-fileName = "OOP_2_Encapsulation"
+fileName = "OOP_6_Decorators"
 for item in liste:
     if not os.path.exists(os.path.join(folderName,item)):
         os.mkdir(os.path.join(folderName,item))
