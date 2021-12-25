@@ -182,3 +182,8 @@
 
 ##########################################
 
+# liste = [1,2,1,1,1,1,2,2,33,2,3,4,5,6,7]
+# # liste.sort() # None inplace 
+# # print(liste)
+# print(sorted(liste)) # list ---> kalıcı değil kayıt etmiyor
+# içine aldığı değere göre çıktı oluşturur

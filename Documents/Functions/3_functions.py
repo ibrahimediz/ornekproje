@@ -198,3 +198,11 @@ chr
 # print(all(liste1)) # False
 # print(any(liste3)) # True
 ################################
+# liste = [1,2,1,1,1,1,2,2,33,2,3,4,5,6,7]
+# # liste.sort() # None inplace 
+# # print(liste)
+# print(sorted(liste)) # list 
+# print(liste)
+##################################
+# print(ord("A"))
+# print(chr(65))
