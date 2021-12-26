@@ -1,7 +1,7 @@
 """
 json
 csv
-shelv
+shelve
 """
 import csv
 import tabulate
@@ -27,3 +27,23 @@ with open("TelDefter.csv","w") as dosya:
     sozlukYazar = csv.DictWriter(dosya,basliklar,delimiter=",",quotechar='"',quoting=csv.QUOTE_MINIMAL)
     sozlukYazar.writeheader()
     sozlukYazar.writerow({"Adı":"İbrahim","Soyadı":"Jamiryo","Telefon":"55555555555"})
+
+import json
+with open("data.json","w") as jsonfile:
+    json.dump({"Adi":"İbrahim","Soyadi":"Jamiryo","Telefon":"55555555555"},jsonfile)
+with open("data.json","r+") as jsonfile:
+    print(json.load(jsonfile))
+
+import shelve
+sheltfile = shelve.open("data")
+sheltfile["kayit1"] = ["ibrahim","jamiryo","123456456"]
+sheltfile.close()
+##################################################
+sheltfile = shelve.open("data")
+print(sheltfile["kayit1"])
+sheltfile.close()
+###################################################
+bft = BFT(adres,baslik)
+bft.menu()
+bft.ekle("",[],{})
+bft.ekler(["",""])
