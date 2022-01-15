@@ -14,4 +14,4 @@ data = {
     "Cinsiyet":"E"
 } 
 
-result = col.insert_one(data)
+# result = col.insert_one(data)

@@ -3,9 +3,9 @@ cli = pymongo.MongoClient("mongodb+srv://dbuser:dbUser123@cluster0.6iawp.mongodb
 # print(*cli.list_database_names(),sep="\n")
 db = cli["patika"]
 print(*db.list_collection_names(),sep="\n")
-col = db["153yemeksepeti"]
+col = db["153_yemeksepeti"]
 
-#data_dict = {'ad':'bugra','soyad':'kaya','adres':'istanbul'}
+data_dict = {'adi':'celal bugra','soyadi':'kaya','adres':'istanbul'}
 
-#result = col.insert_one(data_dict)
-print(result)
+result = col.insert_one(data_dict)
+print(result.inserted_id)

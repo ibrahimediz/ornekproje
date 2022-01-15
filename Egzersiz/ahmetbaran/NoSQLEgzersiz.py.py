@@ -9,8 +9,8 @@ col = db["153_yemeksepeti"]
 # yukarıdaki kod bloğunu kullanarak 
 # fieldları koleksiyona ekleyiniz, ek olarak bir field daha ekleyelim.
 
-data = {"adi":"Josep","soyadi":"Guardiola","adres":"Ingiltere", 'nickname':'Pep'}  
-data = {"adi":"Gazinocular Krali","soyadi":"Alaattin","adres":"deep turkish web", 'genre':'Comedy'}  
+# data = {"adi":"Josep","soyadi":"Guardiola","adres":"Ingiltere", 'nickname':'Pep'}  
+# data = {"adi":"Gazinocular Krali","soyadi":"Alaattin","adres":"deep turkish web", 'genre':'Comedy'}  
 
 # col.insert_one(data)
 
