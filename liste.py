@@ -6,9 +6,9 @@ liste = ["ilhanmert","canersoy","efecan",
 "abdullah","ali","furkan","fatihcan"]
 import os
 
-folderName = "Notlar"
+folderName = "Egzersiz"
 # os.mkdir(folderName)
-fileName = "NoSQL.py"
+fileName = "regexegzersiz1.py"
 for item in liste:
     if not os.path.exists(os.path.join(folderName,item)):
         os.mkdir(os.path.join(folderName,item))
