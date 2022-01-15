@@ -86,8 +86,8 @@ VERBOSE, X: Ignore whitespace and comments in the pattern
 # print(r"*",*re.finditer(r"abc*", test_string),sep="\n")
 # print(r"+",*re.finditer(r"abc+", test_string),sep="\n")
 
-test_string = """ Patika Dev 153- Yemek Sepeti Yemeksepeti yemeksepeti 
-Patika dev patikadev -dev"""
+# test_string = """ Patika Dev 153- Yemek Sepeti Yemeksepeti yemeksepeti 
+# Patika dev patikadev -dev"""
 # print(r"\d",*re.finditer(r"\d", test_string),sep="\n")
 # print(r"\D",*re.finditer(r"\D", test_string),sep="\n")
 # print(r"\w",*re.finditer(r"\w", test_string),sep="\n")

@@ -11,4 +11,6 @@ yukarıdaki metinden re modülünü kullanarak
 import re
 test_string = "123qwe678 -ABC91011- vyz"
 print("Kaç digit var",len(list(re.finditer(r"\d",test_string))))
-
+print("Kaç harf ya da digit var",len(list(re.finditer(r"\w",test_string))))
+print("Kaç harf ya da digit olmayan karakter var",len(list(re.finditer(r"\W",test_string))))
+print("vyz",re.search(r"vyz$",test_string).span())

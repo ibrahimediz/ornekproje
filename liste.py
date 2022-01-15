@@ -8,7 +8,7 @@ import os
 
 folderName = "Egzersiz"
 # os.mkdir(folderName)
-fileName = "regexegzersiz1.py"
+fileName = "regexegzersiz2"
 for item in liste:
     if not os.path.exists(os.path.join(folderName,item)):
         os.mkdir(os.path.join(folderName,item))
