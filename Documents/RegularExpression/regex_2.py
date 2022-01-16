@@ -102,3 +102,54 @@ edizibrahim@patika.dev
 patika@kodluyoruz.com
 """
 
+##isimleri ayıklama
+# pattern = re.compile(r"(Mr|Mrs|Ms).?\s(\w+)")
+# matches = pattern.finditer(isimler)
+# for match in matches:
+#     print(match.group(2))
+# patika@kodluyoruz.com
+# epostalar = """
+# buks.2180@816qs.com
+# abRaHam_sw33tv0ice@agirdagi.t3y
+# ali.man77_@eposta.co.uk
+# """
+# pattern = re.compile(r"([a-zA-Z0-9-._]+)@([a-zA-Z0-9-]+)\.([a-zA-Z0-9-._]+)")
+# ### sub split
+# matches = pattern.finditer(epostalar)
+# for match in matches:
+#     print(match.groups())
+
+
+
+
+
+# test_string = """ Patika Dev 153- Yemek Sepeti Yemeksepeti yemeksepeti yemeksepeti Patika dev patikadev -dev"""
+# pattern = re.compile(r"yemeksepeti")
+# subbed = pattern.sub("YEMEKSEPETİ",test_string)
+# print(subbed) # Patika Dev 153- Yemek Sepeti Yemeksepeti YEMEKSEPETİ YEMEKSEPETİ Patika dev patikadev -dev
+
+
+test_string = """
+http://www.yemeksepeti.com
+https://www.patika.dev
+http://kodluyoruz.com
+"""
+
+# pattern = re.compile(r"https?://(www.)?([a-z]+)\.([a-z]+)")
+# matches = pattern.finditer(test_string)
+# for match in matches:
+#     print(match.groups())
+#     print(match.group(2))
+#     print(match.group(3))
+
+# subbed_url = pattern.sub(r"\2.\3",test_string)
+# print(subbed_url)
+
+
+metin = "Jamiryo JAMIRYO"
+pattern = re.compile(r"jamiryo",re.I) # or re.IGNORCASE
+print(*pattern.finditer(metin),sep="\n")
+
+
+
+

@@ -16,7 +16,7 @@
 # # print(matches) #['abc', 'abc']
 # # for match in matches:
 # #     print(match)
-# #### search()
+#### search()
 # match = pattern.search(test_string) # bulduğu ilk elemanı match olarak döndürür
 # print(match) # <re.Match object; span=(3, 6), match='abc'>
 # #### match()
@@ -27,7 +27,7 @@
 # match = pattern.match(test_string) # ilk elemanın başına match olup olmadığını kontrol eder
 # print(match) # <re.Match object; span=(0, 3), match='abc'>
 
-### GROUP METHOD
+# ## GROUP METHOD
 # test_string = "123abc456789abc123ABC"
 # pattern = re.compile(r"abc")
 # ### group start end span
